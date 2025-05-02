@@ -1,0 +1,20 @@
+/*ATENÇÃO! É necessário rodar npm install para garantir que as dependências sejam carregadas.*/
+
+// Importa o módulo prompt-sync
+const prompt = require('prompt-sync')();
+
+//Exercício 07:
+/*As maçãs custam R$ 0,30 se forem compradas menos do que uma dúzia, e R$ 0,25 se
+forem compradas pelo menos doze. Escreva um algoritmo que leia o número de maçãs
+compradas, calcule e escreva o valor total da compra.*/
+let precoFinal;
+let numeroMaca = parseInt(prompt("Digite quantas maçãs você comprou: "));
+
+if(numeroMaca < 12){
+    precoFinal = (numeroMaca * 0.30);
+    console.log("Preço final R$" + precoFinal.toFixed(2));
+}
+else {
+    precoFinal = (numeroMaca * 0.25);
+    console.log("Preço final R$" + precoFinal.toFixed(2));
+}
