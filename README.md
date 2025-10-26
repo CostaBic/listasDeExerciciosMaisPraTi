@@ -1,28 +1,87 @@
-listas de exercicios MaisPraTi
-Resolução de exercícios do curso dev fullstack júnior mais pra ti / codifica.
+# 💻 Listas de Exercícios — MaisPraTi
 
-🛠️ Instalação Instale o Node.js (versão 14 ou superior): Acesse o site oficial.
+Repositório com a resolução dos exercícios do **curso Dev Fullstack Júnior – MaisPraTi / Codifica**.  
+Os exercícios foram desenvolvidos em **JavaScript (Node.js)** e têm como objetivo praticar lógica de programação e fundamentos da linguagem.
 
-Passo 1: Clonar este repositório:
+---
 
-Passo 2: Instalar dependência prompt-sync:
+## ⚙️ Tecnologias Utilizadas
 
-Para funcionar corretamente primeiro temos que usar a biblioteca prompt-sync. Primeiro temos que baixar usando o gerenciador de pacotes NPM. no terminal, acesse a pasta do projeto, depois, digitar npm install prompt-sync
+- **Node.js** (versão 14 ou superior)  
+- **prompt-sync** para entrada de dados via terminal  
 
-▶️ Como Executar os Exercícios Os arquivos estão nomeados na raiz do projeto como ex01.js até ex15.js.
+---
 
-📁 Estrutura do Projeto:
+## 🛠️ Instalação e Configuração
 
-ex01.js
+### 1️⃣ Instalar o Node.js
+Baixe e instale a versão LTS mais recente do [Node.js](https://nodejs.org/).
 
-ex02.js
+### 2️⃣ Clonar o Repositório
+Abra o terminal e execute:
 
-...
+```bash
+git clone https://github.com/SEU-USUARIO/listas-exercicios-maisprati.git
+cd listas-exercicios-maisprati
+```
 
-ex15.js
+### 3️⃣ Instalar Dependências
+O projeto utiliza a biblioteca **prompt-sync** para permitir entrada de dados no terminal.
 
-package.json
+Execute o comando abaixo na raiz do projeto:
 
-README.md
+```bash
+npm install prompt-sync
+```
 
-Observações: Certifique-se de estar no diretório correto ao rodar os arquivos. Faça suas alterações diretamente e teste variações no código.
+---
+
+## ▶️ Como Executar os Exercícios
+
+Cada arquivo representa um exercício independente.  
+Os nomes seguem o padrão `ex01.js` até `ex15.js`.
+
+Para executar um exercício específico, use:
+
+```bash
+node ex01.js
+```
+
+> Substitua `ex01.js` pelo número do exercício desejado.
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+📦 listas-exercicios-maisprati/
+ ├── ex01.js
+ ├── ex02.js
+ ├── ex03.js
+ ├── ...
+ ├── ex15.js
+ ├── package.json
+ └── README.md
+```
+
+---
+
+## 💡 Observações
+
+- Certifique-se de estar no **diretório raiz** do projeto ao executar os comandos.  
+- Os exercícios podem ser modificados livremente para testar variações de lógica.  
+- Caso enfrente erros de importação, verifique se o **prompt-sync** foi instalado corretamente.  
+
+---
+
+## 🧠 Objetivo do Projeto
+
+Praticar:
+- Lógica de programação  
+- Estruturas de repetição e decisão  
+- Manipulação de variáveis e operadores  
+- Entrada e saída de dados com `prompt-sync`  
+
+---
+
+📚 **MaisPraTi / Codifica** — Formação de Desenvolvedores Fullstack Júnior.
